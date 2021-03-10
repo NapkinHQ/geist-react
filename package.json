@@ -1,5 +1,5 @@
 {
-  "name": "@geist-ui/react",
+  "name": "@npkn/geist-react",
   "version": "2.1.3",
   "main": "dist/index.js",
   "module": "esm/index.js",
