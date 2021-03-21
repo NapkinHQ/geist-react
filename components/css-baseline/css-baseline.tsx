@@ -11,9 +11,7 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
       {children}
       <style global jsx>{`
         code {
-          color: ${theme.palette.code};
           font-family: ${theme.font.mono};
-          font-size: 0.9em;
           white-space: pre-wrap;
         }
 
@@ -23,7 +21,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
         }
 
         pre {
-          border: 1px solid ${theme.palette.accents_2};
           border-radius: ${theme.layout.radius};
           padding: calc(${theme.layout.gap} * 0.75) ${theme.layout.gap};
           margin: ${theme.layout.gap} 0;
@@ -37,7 +34,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
         }
 
         pre code {
-          color: ${theme.palette.foreground};
           font-size: 0.8125rem;
           line-height: 1.25rem;
           white-space: pre;
@@ -59,12 +55,7 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
           background: transparent;
         }
 
-        hr {
-          border-color: ${theme.palette.accents_2};
-        }
-
         details {
-          background-color: ${theme.palette.accents_1};
           border: none;
         }
 
@@ -99,11 +90,8 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
 
         blockquote {
           padding: calc(0.667 * ${theme.layout.gap}) ${theme.layout.gap};
-          color: ${theme.palette.accents_5};
-          background-color: ${theme.palette.accents_1};
           border-radius: ${theme.layout.radius};
           margin: 1.5rem 0;
-          border: 1px solid ${theme.palette.border};
         }
 
         blockquote :global(*:first-child) {
@@ -112,11 +100,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
 
         blockquote :global(*:last-child) {
           margin-bottom: 0;
-        }
-
-        ::selection {
-          background-color: ${theme.palette.selection};
-          color: ${theme.palette.foreground};
         }
       `}</style>
     </>
