@@ -72,7 +72,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
           outline: none;
         }
 
-        summary::-webkit-details-marker,
         summary::before {
           display: none;
         }

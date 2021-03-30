@@ -256,7 +256,6 @@ initialize {
           outline: none;
         }
 
-        summary::-webkit-details-marker,
         summary::before {
           display: none;
         }
@@ -583,7 +582,6 @@ initialize {
           outline: none;
         }
 
-        summary::-webkit-details-marker,
         summary::before {
           display: none;
         }

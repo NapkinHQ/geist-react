@@ -1,6 +1,6 @@
 {
   "name": "@npkn/geist-react",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "main": "dist/index.js",
   "module": "esm/index.js",
   "types": "dist/index.d.ts",
