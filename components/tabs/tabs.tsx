@@ -141,6 +141,7 @@ const Tabs: React.FC<React.PropsWithChildren<TabsProps>> = ({
             transition: all 200ms ease;
           }
 
+          .tab:focus:after,
           .tab.active:after {
             background-color: ${theme.palette.foreground};
             transform: scaleX(1);
@@ -155,6 +156,7 @@ const Tabs: React.FC<React.PropsWithChildren<TabsProps>> = ({
             margin-left: 0;
           }
 
+          .tab:focus,
           .tab.active {
             color: ${theme.palette.foreground};
           }
