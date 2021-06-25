@@ -70,6 +70,7 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
           outline: none;
         }
 
+        summary::marker,
         summary::before {
           display: none;
         }

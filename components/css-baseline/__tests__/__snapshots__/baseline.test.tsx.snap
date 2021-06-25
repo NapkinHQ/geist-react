@@ -256,6 +256,10 @@ initialize {
           outline: none;
         }
 
+<<<<<<< HEAD
+=======
+        summary::marker,
+>>>>>>> 74e76adbcf97f0ce76bbb3d3e382be52fdf3cfdb
         summary::before {
           display: none;
         }
@@ -582,6 +586,10 @@ initialize {
           outline: none;
         }
 
+<<<<<<< HEAD
+=======
+        summary::marker,
+>>>>>>> 74e76adbcf97f0ce76bbb3d3e382be52fdf3cfdb
         summary::before {
           display: none;
         }
