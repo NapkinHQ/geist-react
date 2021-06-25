@@ -79,6 +79,11 @@ const Tabs: React.FC<React.PropsWithChildren<TabsProps>> = ({
               role="button"
               tabIndex={0}
               key={item.value}
+              onKeyPress={(event) => {
+                if (event.key === "Enter") {
+                  return clickHandler(item)
+                }
+              }}
               onClick={() => clickHandler(item)}>
               {item.label}
             </div>

@@ -11,7 +11,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
       {children}
       <style global jsx>{`
         code {
-          font-family: ${theme.font.mono};
           white-space: pre-wrap;
         }
 
@@ -24,7 +23,6 @@ const CssBaseline: React.FC<React.PropsWithChildren<unknown>> = ({ children }) =
           border-radius: ${theme.layout.radius};
           padding: calc(${theme.layout.gap} * 0.75) ${theme.layout.gap};
           margin: ${theme.layout.gap} 0;
-          font-family: ${theme.font.mono};
           white-space: pre;
           overflow: auto;
           line-height: 1.5;

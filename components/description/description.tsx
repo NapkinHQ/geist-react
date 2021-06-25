@@ -37,7 +37,7 @@ const Description: React.FC<DescriptionProps> = ({
         dt {
           height: 0.875rem;
           line-height: 0.875rem;
-          font-size: 0.75rem;
+          font-size: 0.8125rem;
           margin-bottom: 0.5rem;
           text-transform: uppercase;
           white-space: nowrap;
